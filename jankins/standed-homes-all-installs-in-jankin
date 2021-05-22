@@ -1,0 +1,31 @@
+standed path [at this location installed]
+
+
+
+
+Java installation: 
+      Standed path/home 
+            /usr/lib/jvm/java-11-openjdk-amd64
+
+
+Jenkins:
+     Standed path/ home 
+        /var/lib/jenkins
+
+
+Maven: 
+      Standed path/ home 
+           /opt/apache-maven-3.6.3
+
+git :
+   standed path /home
+           /usr/bin/git 
+
+
+
+jenkin password:
+
+   [it will provided on top where it is located]
+              or
+    /var/lib/jenkins/secrets/initialadminpassword
+    
