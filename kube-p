@@ -1,0 +1,35 @@
+72-31-84-89:~/commonds-kube# cat kube
+   46  kubectl get pods
+   47  kubectl config get-contexts
+   48  kubectl get namespace
+   49  kubectl config set-context dev --namespace=development --user=kubernetes-admin --cluster=kubernetes
+   50  kubectl config get-contexts
+   51  kubectl config use-context dev
+   52  kubectl get pods
+   56  kubectl apply -f pod.yaml
+   58  kubectl get pod
+   61  kubectl get pods -o wide
+   62  kubectl desceribe <object type> <pod object-name> 
+   64  cat pod.yaml
+   65  kubectl describe  Pod sample-pod   {if we get any problem}
+   66  kubectl get events
+   67  kubectl delete -f pod.yaml
+   68  ls
+   69  cd  replicaSet
+   70  kubectl get replicaset
+   71  kubectl apply -f replicaSet.yaml
+   72  kubectl get replicaset
+   73  vi replicaSet.yaml
+   74  kubectl apply -f replicaSet.yaml
+   75  kubectl get replicaset
+   76  kubectl getpods
+   77  kubectl get pods
+   79  kubectl apply -f pod.yaml
+   81  kubectl delete -f sales-app-hftmc
+   82  kubectl delete pod sales-app-hftmc
+   87  vi replicaSet.yaml
+   88  kubectl get pods
+   89  kubectl apply -f replicaSet.yaml
+   91  kubectl delete -f replicaSet.yaml
+   97  kubectl apply  -f pod.yaml
+  101  kubectl delete -f pod.yaml
