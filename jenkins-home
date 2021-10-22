@@ -1,3 +1,6 @@
+
+$dashbond > manege jenkins  >global tool configuration
+
 #maven
 /opt/apache-maven-3.8.3
 
@@ -6,11 +9,25 @@
 /usr/bin/git
 
 
-Jenkins
+
+#Jenkins
      Stand path/ home 
-        /var/lib/jenkins
+        /var/lib/jenkins/
         
         
-        Java installation proces
+#Java installation proces
       Stand path/ home 
-            /usr/lib/jvm/java-11-openjdk-amd64
+            /usr/lib/jvm/java-11-openjdk-amd64  {version 11} 
+              /usr/lib/jvm/java-8-openjdk-amd64  {version 8}
+              
+#unlock jenkins
+ /var/lib/jenkins/secrets/initialAdminPassword
+ 
+ 
+
+#static {ip private /elastic ip because reboot sum time so its good
+wheen u rebot all it is constains}
+http://172.31.84.48:8080/
+
+
+#Building in workspace /var/lib/jenkins/workspace/saiproject
