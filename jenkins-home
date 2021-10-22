@@ -1,0 +1,16 @@
+#maven
+/opt/apache-maven-3.8.3
+
+
+#git home
+/usr/bin/git
+
+
+Jenkins
+     Stand path/ home 
+        /var/lib/jenkins
+        
+        
+        Java installation proces
+      Stand path/ home 
+            /usr/lib/jvm/java-11-openjdk-amd64
