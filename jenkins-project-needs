@@ -1,0 +1,10 @@
+jenkins is a dependence agant
+when u want to run any project {need a pre requerment shoud check}
+mavan {pom.xml} developer should must writing all the information to where install dependens 
+maven goals:
+varife > compile > package > install
+
+
+BUILD TRIGAR
+POLL SCM      JENKINS>poll scm> github
+webhook        git > jenkins
