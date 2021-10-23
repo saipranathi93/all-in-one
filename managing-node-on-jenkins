@@ -1,1 +1,8 @@
 master ..........jnlp [java network lunching protocall]...........salve [install git ,java, maven]    execpt jenkins
+on home create a mkdir my-ubuntu {/homw/my-node}remote root direction
+in jenkins dashbord > manage jenkins > System Configuration > manage node > new node > name > Remote root directory 
+jenkins dashbord > manage jenkins > security > Configure Global Security > agent {randm}
+now run a link on terminal wget {/home/my-node}
+
+
+Restrict where this project can be run.....configuration on general {particularly runing for project}
