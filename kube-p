@@ -11,7 +11,7 @@
    61  kubectl get pods -o wide
    62  kubectl desceribe <object type> <pod object-name> 
    64  cat pod.yaml
-   65  kubectl describe  Pod sample-pod   {if we get any problem}
+   65  kubectl describe  {Pod sample-pod  } {if we get any problem}
    66  kubectl get events
    67  kubectl delete -f pod.yaml
    68  ls
@@ -33,3 +33,5 @@
    91  kubectl delete -f replicaSet.yaml
    97  kubectl apply  -f pod.yaml
   101  kubectl delete -f pod.yaml
+   kubectl get pod -o wide
+    kubectl exec -i --tty sample-pod -- /bin/bash
