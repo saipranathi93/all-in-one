@@ -1,4 +1,0 @@
- 1  docker images
-    2  docker run -d lerndevops/sampleapp:24
-    3  docker ps
-    
