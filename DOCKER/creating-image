@@ -1,0 +1,98 @@
+docker pul image ubuntu 
+run in intersctivdemode
+make chenges 
+comout safely[control pq]
+commit the container changes to converting into images
+   
+   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ manual $$$$$$$$$$$$$$$$$$$$$$
+   1  docker images
+    2  docker rmi tomcat:latest
+    3  docker rmi ubuntu:latest
+    4  docker pull ubuntu:16.04
+    5  docker images 
+    6  docker run -it ubuntu:16.04 bash ======================> installing what weneed 
+    7  docker ps
+    8  docker commit -m "myubuntu " 672cb3cb7650 =============> commiting 
+    9  docker images
+   10  history===============> now you will delete the container all so no worrys becus we have images
+   
+   
+   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ AUTOMATION PROCESS ######################
+   
+   
+     1  vi docker.fil
+    2  docker buil -f /root/docker.fil -t myubuntu:v2 .
+    3  docker build -f /root/docker.fil -t myubuntu:v2 .
+    4  vi docker.fil 
+    5  docker build -f /root/docker.fil -t myubuntu:v2 .
+    6  vi docker.fil 
+    7  docker build -f /root/docker.fil -t myubuntu:v2 .
+    8  docker images
+    9  history
+    
+    
+    vi docker.fil
+    
+    FROM ubuntu:16.04
+
+RUN apt-get update
+RUN apt-get install -y vim 
+RUN touch pranathi.text
+RUN echo "hi chinnu kannaya" > pranathi.text
+
+
+ 1  vi docker.fil
+    2  docker buil -f /root/docker.fil -t myubuntu:v2 .
+    3  docker build -f /root/docker.fil -t myubuntu:v2 .
+    4  vi docker.fil 
+    5  docker build -f /root/docker.fil -t myubuntu:v2 .
+    6  vi docker.fil 
+    7  docker build -f /root/docker.fil -t myubuntu:v2 .
+    8  docker images
+    9  history
+   10  cat docker.fil 
+   11  ssh-keygen
+   12  cat ~/.ssh/id_rsa.pub
+   13  git clone git@github.com:lerndevops/labs.git
+   14  ls
+   15  cd labs/
+   16  ls
+   17  cd docker/
+   18  ls
+   19  cd images/
+   20  ls
+   21  ls -l
+   22  vi myapp
+   23  vi dockerfile_myapp
+   24  cd
+   25  cd labs/docker/code
+   26  cd labs/docker
+   27  ls -l
+   28  cd images/
+   29  cd code/
+   30  ls -l 
+   31  pws
+   32  pwd
+   33  cd ..
+   34  docker build -f dockerfile_myapp -t myapp:v1 /root/labs/docker/images/code
+   35  cd
+   36  docker imges
+   37  docker images
+   38  docker run -d -P myapp:v1
+   39  docker ps
+   40  history
+   41  cd labs/docker/
+   42  cd
+   43  cd labs/docker/
+   44  cd images/
+   45  history
+   46  cd
+   47  docker login 
+   48  docker ps
+   49  docker tag myapp:v1 pranathipranu
+   50* 
+   51  docker tag myapp:v1 pranathipranu/fristproject:v1
+   52  docker images
+   53  docker push pranathipranu/fristproject:v1
+   54  histor
+   55  history
