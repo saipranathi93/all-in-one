@@ -1,0 +1,26 @@
+5  docker volume create myvol   +=====================================>direct ======images only not cor containers
+    6  docker volume ls
+    7  docker volume inspect myvol
+    8  cd /var/lib/docker/volumes/myvol/_data
+    9  ls
+   10  cd
+   11  docker ps
+   12  doker run -d -P -V myvol:/opt/tomcat/logs lerndevops/samplejavaapp:9 
+   13  docker run -d -P -V myvol:/opt/tomcat/logs lerndevops/samplejavaapp:9 
+   14  docker run -d -P -v myvol:/opt/tomcat/logs lerndevops/samplejavaapp:9 
+   15  cd /var/lib/docker/volumes/_data
+   16  cd /var/lib/docker/volumes/
+   17  cd myvol/
+   18  cd _data/
+   19  ls -l
+   20  history
+...................................................
+ docker run -d -P -v /tmp/nginxconf:/usr/share/nginx/html 
+   28  cd /tmp/
+   29  ls
+   30  cd
+   31  docker run -d -P -v /tmp/nginxconf:/usr/share/nginx/html nginx .................directinggggggg
+   32  cd /tmp/nginxconf/
+   33  ls
+   34  cd ..
+   35  cd nginxlogs
