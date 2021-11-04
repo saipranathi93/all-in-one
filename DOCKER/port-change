@@ -1,0 +1,4 @@
+root@ip-172-31-92-111:~# docker run -d -P 9090:8080 pranathipranu/fristproject:v1
+Unable to find image '9090:8080' locally
+docker: Error response from daemon: pull access denied for 9090, repository does not exist or may require 'docker login': denied: requested access to the resource is denied.
+See 'docker run --help'.
