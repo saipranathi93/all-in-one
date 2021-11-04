@@ -1,0 +1,15 @@
+docker to compose {this is not production to use }
+how to create a multple cont from single \ multiple images
+docker compose is thrid party utility need to be install separetly 
+docker compose file is ymal we use to write  instructions to run multiple container from |single /multiple images
+
+
+
+service is group of cont from a single image
+
+
+    1  docker-compose -f docker-compose1.yml up --scale app=
+    2  vi docker-compose1.yml
+    3  docker-compose -f docker-compose1.yml up --scale  webserver=2 -d
+    4  docker-compose -f docker-compose1.yml up --scale  webserver=0 -d
+    5  history
