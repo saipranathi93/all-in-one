@@ -1,0 +1,5 @@
+---
+- name: copy configurations
+  copy: src=config.txt dest=/tmp
+- name: push html file
+  copy: src=index.html dest=/var/www/html
