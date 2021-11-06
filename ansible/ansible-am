@@ -1,0 +1,86 @@
+   1  sudo apt-get update
+    2  sudo apt-get install software-properties-common
+    3  sudo apt-add-repository ppa:ansible/ansible
+    4  sudo apt-get upadate
+    5  sudo apt-get update
+    6  sudo apt-get install ansible
+    7  ansible --version
+    8  cd .ssh$ ls
+    9  cd .ssh
+   10  ls
+   11  ssh-keygen
+   12  ls
+   13  cat sudo id_rsa.pub
+   14  ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC92hgevLw6bJGfILKArUp4YEwxi5qdQ07recnRj7qb0FhX1gayku1dSSyuMQgvRH6+mmyahL7i0+iEZDX2rzNGDri+IsTlscyAyDQBdj59LZh4xZsJRtjswUsNGJYYz6VipA5Q7WL2VNgEYNFCWUkucBMCaGr/xHdU8atBJKgR4DUbI3KUcEA9pGnZl95l6iT4cMDKd62gKEcTAWRPm3uCpHOfTAgS7fcyLcCKdpbsE0g0T//Z0qdBkCPNvdlWo3GvWD8NKOZ4A6uyoPOeQatayyE9IRZdZm5Kib7c9dqUvLQN9inucJKszqA32ODN4EhUkXbpowLUI1rzscUwqFd6HKWYxuT8vEhEM/yPc1kS/aI70bFl6qwpaVtwD7Y7DhiDyBVnCLqQJ6X016R6AA65rLlyjW40jc4r4madSnk3jv7e2+HO8yLZwRn4MQNjr80NgUPeA03rwhRSYsSsYFxFBU75KufmvHm3/6nO2F67FpCKMD63wMOrS6BhgrWyVR8= ubuntu@ip-172-31-19-67
+   15  cd
+   16  ssh ubuntu@172.31.18.215
+   17  ssh ubuntu@172.31.17.241
+   18  ssh ubutu@172.31.18.215
+   19  ssh ubuntu@172.31.18.215
+   20  cd /etc/ansible
+   21  ls
+   22  sudo nano ansible.cfg 
+   23  sudo nano hosts 
+   24  pwd
+   25  ansible -m ping slave1
+   26  ansible -m ping slave2
+   27  sudo nano hosts 
+   28  ansible -m ping slave2
+   29  sudo nano hosts 
+   30  ansible -m ping slave2
+   31  ansible -m ping dev
+   32  ansible -m ping prod
+   33  ls
+   34  sudo apt-get install tree
+   35  cd roles/
+   36  ls
+   37  ansible-galaxy init apache
+   38  sudo ansible-galaxy init apache
+   39  ls
+   40  tree 
+   41  sudo ansible-galaxy init nginx
+   42  ls
+   43  tree nginx
+   44  cd apache/
+   45  ls
+   46  cd tasks
+   47  ls
+   48  sudo nano install.yml
+   49  apt-get install yml
+   50  sudo apt-get install yml
+   51  sudo apt-get install yaml
+   52  ;s
+   53  ls
+   54  sudo nano configure.yml
+   55  ls
+   56  sudo nano service.yml
+   57  ls
+   58  sudo nano main.yml 
+   59  cd..
+   60  cd ..
+   61  cd files/
+   62  sudo nano index.html
+   63  sudo nano config.txt
+   64  ls
+   65  cd ..
+   66  cd tasks/
+   67  sudo cat configure.yml 
+   68  cd ..
+   69  sudo nano apache.yml
+   70  ls
+   71  ansible-playbook apache.yml --syntax-check
+   72  sudo nano apache.yml
+   73  cd roles/
+   74  cd apache/
+   75  ls
+   76  cd tasks/
+   77  ls
+   78  sudo nano service.yml 
+   79  ansible-playbook apache.yml --syntax-check
+   80  cd ..
+   81  cd
+   82  cd /etc/
+   83  cd ansible/
+   84  ansible-playbook apache.yml --syntax-check
+   85  ansible-playbook apache.yml 
+   86  history
