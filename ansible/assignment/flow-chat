@@ -1,0 +1,20 @@
+crete a 3 servers with t2 small
+1-master, 2 apache-webserver, 3 nginx-webserver
+masther keys shoud be add in public key shouls be added both web-servers in root and  ubuntu user
+adding ssh key path of master /home/ubuntu/.ssh and  pasting the nodes in /home/ubuntu/.ssh and /root
+modifinding sum steps in this path /etc/ansible.......{removing the #}  
+======= nano [host]
+Host on ansible {/etc/ansible…….nano host}
+[prod]
+slave1 ansible_ssh_host=54.196.243.152 ansible_user=root
+[dev]
+salve2 ansible_ssh_host=174.129.185.54 ansible_user=root
+
+ 
+modifinding sum steps in this path /etc/ansible.......{removing the #} 
+=======nano ansible.config
+[privilege_escalation]
+#become_user=root 
+#remote_user = root 
+
+PLAY-BOOKS
