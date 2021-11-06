@@ -87,3 +87,4 @@
    
   160  ansible-playbook nginx.yml --syntax-check
   161  ansible-playbook nginx.yml
+##########################################################sudo apt-get install apache2-doc ###########################
