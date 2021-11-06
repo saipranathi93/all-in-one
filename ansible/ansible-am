@@ -84,3 +84,6 @@
    84  ansible-playbook apache.yml --syntax-check
    85  ansible-playbook apache.yml 
    86  history
+   
+  160  ansible-playbook nginx.yml --syntax-check
+  161  ansible-playbook nginx.yml
